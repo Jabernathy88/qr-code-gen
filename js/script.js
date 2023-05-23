@@ -55,7 +55,6 @@ const createSaveBtn = (saveUrl) => {
     link.download = 'qrcode';
     link.innerHTML = 'Save Image';
     document.getElementById('generated').appendChild(link);
-
 };
 
 hideSpinner();
